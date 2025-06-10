@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://oshdt2avvrti"]
+
+[ext_resource type="Script" uid="uid://b88fa4um3i7ri" path="res://scripts/nodes/FearIndicator.gd" id="1_smnms"]
+[ext_resource type="PackedScene" uid="uid://cjkhgljnpp08a" path="res://scripts/nodes/FearIcon.tscn" id="2_b0c66"]
+
+[node name="FearIndicator" type="Control" node_paths=PackedStringArray("fear_label", "fear_icon_container")]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_smnms")
+fear_icon = ExtResource("2_b0c66")
+fear_label = NodePath("VBoxContainer/Label")
+fear_icon_container = NodePath("VBoxContainer/FearIconsContainer")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Fear"
+
+[node name="FearIconsContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 36

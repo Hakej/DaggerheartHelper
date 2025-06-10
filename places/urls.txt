@@ -1,0 +1,11 @@
+https://watabou.github.io/
+https://watabou.github.io/one-page-dungeon/?seed=1624073834&name=Blightblade%20Hideout
+https://watabou.github.io/cave-generator/?seed=389769638&tags=small,flooded&water=0.59&name=Scarlet%20Hole&glade=0
+
+https://watabou.github.io/cave-generator/?seed=2052329685&tags=dry,passage,small&name=Misthorn%20Glade&glade=1
+https://watabou.github.io/cave-generator/?seed=2052329685&tags=dry,passage,small&name=&glade=1
+
+https://watabou.github.io/village-generator/?seed=1903240791&tags=river,isolated
+
+
+Foxhorn: https://watabou.github.io/village-generator/?seed=756209431&tags=dead%20end,coast&width=200&height=200
